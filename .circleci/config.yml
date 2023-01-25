@@ -69,10 +69,14 @@ jobs:
             npm run frontend:build
             echo "Building API"
             npm run api:build
+            echo "Deploying Front-end"
+            npm run frontend:deploy
+            echo "Deploying Back-end"
+            eb list
+            eb use udagram-api-dev
             echo "Setting environment variables"
             eb setenv POSTGRES_USERNAME=$POSTGRES_USERNAME POSTGRES_PASSWORD=$POSTGRES_PASSWORD POSTGRES_DB=$POSTGRES_DB POSTGRES_HOST=$POSTGRES_HOST AWS_REGION=$AWS_REGION AWS_PROFILE=$AWS_PROFILE AWS_BUCKET=$AWS_BUCKET JWT_SECRET=$JWT_SECRET URL=$URL
-            echo "Deploying both Apps"
-            npm run deploy
+            npm run api:deploy
 workflows:
   udagram:
     jobs:
