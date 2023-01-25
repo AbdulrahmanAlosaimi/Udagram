@@ -72,7 +72,7 @@ jobs:
             echo "Deploying Front-end"
             npm run frontend:deploy
             echo "Deploying Back-end"
-            cd ../udagram/udagram-api
+            cd ./udagram/udagram-api
             eb list
             eb use udagram-api-dev
             echo "Setting environment variables"
