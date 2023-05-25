@@ -55,4 +55,4 @@ The e2e tests are using Protractor and Jasmine.
 
 ---
 
-This project was developed by Abdulrahman Alosaimi as a project for the Full Stack JavaScript Developer Nanodegree
+Note: Front-end and Back-end were provided by Udacity. Some changes and the deployment process (which includes AWS RDS-S3-EB) were developed by Abdulrahman Alosaimi.
