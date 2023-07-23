@@ -2,10 +2,8 @@
 
 ---
 
-<div align="center">
-<h3>Pipeline diagram</h3>
-<img src="../screenshots/pipeline-diagram.png">
-</div>
+### Pipeline diagram
+![Pipeline diagram](https://github.com/AbdulrahmanAlosaimi/Udagram/blob/12eae2ce0af98dd5eb4c7cd1b97bcb474cdf8b11/screenshots/Pipeline-diagram.png)
 
 ---
 
