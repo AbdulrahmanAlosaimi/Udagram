@@ -1,11 +1,8 @@
 ## Infrastructure Documentation
 
 ---
-
-<div align="center">
-<h3>Infrastructure diagram</h3>
-<img src="../screenshots/infrastructure-diagram.png" width=500>
-</div>
+### Infrastructure diagram
+![Infrastructure diagram](https://github.com/AbdulrahmanAlosaimi/Udagram/blob/b36fd5a59bc48120369d26f2f43cab67d31a26e7/screenshots/Infrastructure-diagram.png)
 
 ---
 
